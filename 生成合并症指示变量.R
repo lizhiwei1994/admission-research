@@ -40,7 +40,7 @@ data <- lapply(path.qita, read_xlsx)
 
 names <- c('number', 'diag', 'chinese', 'status', 'UNICODE')
 
-data.qita <- map(data,qitazhenduan) %>% 
+data.qita <- map(data,qitazhenduan) %>% asdasdasda
                           do.call('rbind', .) %>% 
                           as.data.frame() %>% 
                           set_names(names) %>% 
